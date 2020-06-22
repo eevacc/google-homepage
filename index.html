@@ -3,12 +3,13 @@
         <meta charset="UTF-8">
         <meta content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for." name="description">
     <link rel="stylesheet" href="style.css">
-    </head>
+<title>Google</title>    
+</head>
     <body>
         <header>
             <div class="leftnavbar">
                 <ul>
-                    <li><a href="#">about</a></li>
+                    <li><a href="#">About</a></li>
                     <li><a href="#">Store</a></li>
                 </ul>
             </div>  
@@ -22,26 +23,32 @@
             </div>    
 
         </header>
-        <section>
-        <div class="logo">
-        <img alt="google" height="92" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
-        </div>
-
+        <main>
         <form action="/search" method="get" id="search">
+            <div class="logo">
+                <img alt="google" height="92" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+                </div>
              <input type="text" >
         <div>    
                 <input type="submit" value="Google Search">
                 <input type="submit" value="I'm Feeling Lucky">
         </div>
         </form>
-    </section>
-       <div id="footer">
-           <div class="container">
+    </main>
+       <footer class="footer">
+           <div class="fcnt">
+           <span id="lf">
                <a href="#">Advertising</a>
                <a href="#">Business</a>
                <a href="#">How Search works</a>
+           </span>
+           <span id="rf">
+               <a href="#">Privacy</a>
+               <a href="#">Terms</a>
+               <a href="#">Settings</a>
+           </span>
            </div>
-        </div>
+        </footer>
 
 
        </footer>
