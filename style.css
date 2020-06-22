@@ -1,0 +1,58 @@
+html {
+    display: block;
+    
+}
+
+body {
+    background: #fff;
+    color: #222;
+    font-family: arial, sans-serif;
+    height: 100%;
+    margin:0;
+    font-size: small;
+}
+
+header {
+
+    height: 60px;
+}
+.leftnavbar {
+    float: left;
+}
+
+.rightnavbar {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{ 
+    display: inline;
+}
+
+section {
+    display: block;
+    height: 50em;
+}
+
+.logo {
+    
+    display: block;
+    text-align: center;
+    
+}
+
+#search {
+    display:block;
+    text-align: center;
+}
+
+#footer {
+    background-color: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
