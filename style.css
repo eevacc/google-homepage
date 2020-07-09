@@ -129,6 +129,7 @@ opacity: 0.87s;
 height: 24px;
 width: 24px;
 padding-right: 15px;
+cursor: pointer;
 }
 
 .search-btn{
@@ -146,6 +147,7 @@ padding-right: 15px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
+    cursor: pointer;
 }
 footer {
     display: flex;
