@@ -9,6 +9,11 @@ a {
     cursor: pointer;
     color: inherit;
 }
+
+a:hover {
+text-decoration: underline
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -149,6 +154,16 @@ cursor: pointer;
     min-width: 54px;
     cursor: pointer;
 }
+
+
+*:focus {outline:none}
+
+.search-btn button:hover {
+
+border: 1px solid #dfe1e5;
+box-shadow: 0.1px 0.1px 0.5px #dfe1e5, 0 0 1px #dfe1e5, 0 0 1.1px #dfe1e5;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
